@@ -1,0 +1,21 @@
+table.sar-table th {
+    background:none repeat scroll 0 0 #FBF9EA;
+    color:#000;
+    font-weight:normal;
+    font-size: 1.1em;
+    padding:0 7px;
+    cursor:move;
+    text-align: center;
+    vertical-align:middle !important
+}
+
+.action_message_body_success {background-color:#F0FFFF; font-size: 1em; color:green;}
+.action_message_body_fail {background-color:#FFF8DC; font-size: 1em; color:#FA8072;}
+
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
